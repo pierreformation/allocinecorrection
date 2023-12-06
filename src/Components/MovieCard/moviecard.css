@@ -1,0 +1,16 @@
+.movieCardContainer {
+    background-color: beige;
+    margin:10px;
+    border: solid 1px black;
+    font-size: 30px;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.movieCardContainer img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
